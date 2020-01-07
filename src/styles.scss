@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+// @import "../node_modules/bootstrap/dist/css/bootstrap.css"
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.cdk-overlay-pane{
+    position: relative !important;
+    width: 500px;
+    height: 220px;
+  }
+
+  .category-modal{ 
+      .mat-form-field{
+        width:100% !important;
+        }
+        .field-textarea{
+            resize:none;
+        } 
+  .mat-dialog-actions{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    margin-bottom:0px;
+    .mat-button.mat-primary{
+        color:red;
+       }
+  }
+}
+  
